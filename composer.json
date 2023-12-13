@@ -1,0 +1,17 @@
+{
+    "name": "ramsh/php-sdk",
+    "autoload": {
+        "psr-4": {
+            "Ramsh\\PhpSdk\\": "src/"
+        }
+    },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "./pinelab-php-sdk"
+        }
+    ],
+    "require": {
+    "pinelabs/php":"@dev"
+}
+}

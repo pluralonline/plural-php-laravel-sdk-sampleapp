@@ -1,0 +1,20 @@
+{
+    "name": "pinelabs/php",
+    "description": "Pinelabs PHP library to enable Payments Collection",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Pinelabs\\Php\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Pinelabs"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require-dev": {
+        "laravel/pint": "dev-main"
+    }
+}
